@@ -1,4 +1,11 @@
+# pip install pyfiglet
+import pyfiglet
+
 import math
+
+ascii_banner = pyfiglet.figlet_format("Fast module ")
+print(ascii_banner )
+print("				-by lokemass")
 print("Fast modulo ")
 '''step by step aproch '''
 base= int(input('enter base value'))
